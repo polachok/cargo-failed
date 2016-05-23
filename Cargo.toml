@@ -1,0 +1,8 @@
+[package]
+name = "cargo-failed"
+version = "0.1.0"
+authors = ["Alexander Polakov <apolyakov@beget.ru>"]
+
+[dependencies.netmap_sys]
+git = "https://github.com/libpnet/netmap_sys"
+rev = "4bc5496c0afb6dc884a3d8c686a58bff82b323b8"
